@@ -29,7 +29,7 @@ componentDidMount(){
     console.log(this.state.data)
     return (
       <div>
-        <div className='row'>
+        <div className='row pt-3'>
            {(this.state.data!=null)? <div className='col-md-6'>
                 <div className='row'>
                     <div className='col-md-6'>
