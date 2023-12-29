@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body ononline="online()" onoffline="offline()">
+
+
+    <script>
+        let body = document.querySelector("body")
+        function online(){  
+            body.style.backgroundColor ='#4caf50'
+
+            
+        }
+        
+        function offline(){
+            body.style.backgroundColor = 'gray'
+        }
+    </script>
+</body>
+
+</html>
